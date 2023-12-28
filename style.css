@@ -8,24 +8,7 @@ body {
 	padding: 0;
 	width: auto;
 	height: auto;
-}
-
-.bg {
-	background-image: url(bg.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: fixed;
-	height: 100vh;
-	width: 100vw;
-}
-	
-.content {
-	  position: absolute;
-	  left: 50%; 
-	  margin-top: 0px;
-	  transform: translateX(-50%);
-	  width: 100%;
+	background-color: #eceff1;
 }
 
 .clockbox {
@@ -49,12 +32,13 @@ body {
 .channel {
 	width: 240px;
 	height: 240px;
-	border: solid 3px rgb(88,88,88,0.8);
+	border: solid 6px #b3b3b3;
 	margin-top: 5px;
 	margin-left: 5px;
 	display: inline-grid;
+	border-radius: 15px;
 }
 
 .channel:hover {
-	border: solid 3px rgb(188,188,188,0.8);
+	border: solid  6px #0068e5;
 }
