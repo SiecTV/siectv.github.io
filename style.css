@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "myfont";
+	src: url("main.ttf")
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.bg {
+	background-image: url(bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+}
+	
+.content {
+	  position: absolute;
+	  left: 50%; 
+	  margin-top: 0px;
+	  transform: translateX(-50%);
+	  width: 100%;
+}
