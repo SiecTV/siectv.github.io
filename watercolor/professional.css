@@ -1,19 +1,10 @@
- 
- .platform-win {
- 	--classic-titlebar-height: 22px;
- 	--classic-titlebar-active: linear-gradient(90deg, #0a246a, #a6caf0);
- 	--classic-titlebar-inactive: linear-gradient(90deg, #808080, #c0c0c0);
- 	--classic-titlebar-wordmark-content: 'Discord';
- 	--classic-app-padding: 3px;
- }
- 
  .typeWindows__5fa63 {
  	position: relative;
  	display: flex;
  	align-items: center;
  	margin-top: 0;
  	top: 0;
- 	height: var(--classic-titlebar-height);
+ 	height: 22px;
  	padding: 3px 2px 3px 3px;
  	box-sizing: border-box;
  	z-index: 9999;
@@ -58,7 +49,7 @@
  	padding: 0 3px;
  	box-sizing: border-box;
  	width: 100%;
- 	height: var(--classic-titlebar-height);
+ 	height: 22px;
  	display: flex;
  	align-items: center;
  	background-image: url(https://siectv.github.io/watercolor/activetitlebar.png);
@@ -74,8 +65,8 @@
  }
 
  .wordmarkWindows__05c46::before {
- 	content: var(--classic-titlebar-wordmark-content);
- 	height: var(--classic-titlebar-height);
+ 	content: "Discord";
+ 	height: 22px;
  	z-index: 1;
  	position: relative;
  	font-family: 'Tahoma';
@@ -84,7 +75,7 @@
  	font-weight: 700;
  	opacity: .8;
  	padding: 0 3px;
- 	line-height: var(--classic-titlebar-height);
+ 	line-height: 22px;
  	font-smooth: always;
  }
 
@@ -95,7 +86,7 @@
  .platform-win #app-mount,
  .platform-win .backdrop__7e89b,
  .platform-win .backdropWithLayer-3_uhz4 {
- 	padding: var(--classic-app-padding);
+ 	padding: 5px;
  	box-sizing: border-box;
  	background-color: #3573D6;
  }
